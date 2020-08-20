@@ -1,0 +1,8 @@
+Zack:
+*Find good dataset on large number of songs. 
+*ML to predict popularity of a given song. 
+
+Austin:
+*Clean and merge 2020 songs and 2010-2019 songs. drop genres column and fill empty values with column medians.
+*Analysis on top songs. What features make a top song?
+*Charts
