@@ -1,0 +1,51 @@
+,name,album,artist,release_date,length,popularity,acousticness,danceability,instrumentalness,loudness,tempo,speechiness,valence,time_signature
+0,WAP (feat. Megan Thee Stallion),WAP (feat. Megan Thee Stallion),Cardi B,2020-08-07,187541,93,0.0194,0.935,0.0,-7.509,133.073,0.375,0.357,4
+1,Laugh Now Cry Later (feat. Lil Durk),Laugh Now Cry Later (feat. Lil Durk),Drake,2020-08-14,261492,88,0.244,0.761,3.47e-05,-8.871,133.976,0.134,0.522,4
+2,ROCKSTAR (feat. Roddy Ricch),BLAME IT ON BABY,DaBaby,2020-04-17,181733,100,0.247,0.746,0.0,-7.956,89.977,0.164,0.497,4
+3,Wishing Well,Legends Never Die,Juice WRLD,2020-07-10,194621,88,0.00336,0.65,0.0,-6.13,149.972,0.128,0.0804,4
+4,"WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) - Remix","WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix]",Jack Harlow,2020-06-24,227478,93,0.0631,0.904,0.0,-5.224,145.013,0.26,0.835,4
+5,Mood (feat. Iann Dior),Mood (feat. Iann Dior),24kGoldn,2020-07-24,140525,84,0.221,0.7,0.0,-3.558,90.989,0.0369,0.756,4
+6,Smile (with The Weeknd),Legends Never Die,Juice WRLD,2020-07-10,196180,85,0.224,0.694,0.0,-6.535,158.831,0.133,0.306,4
+7,7 Summers,7 Summers,Morgan Wallen,2020-08-14,210122,80,0.431,0.625,5.23e-05,-5.199,101.961,0.0248,0.588,4
+8,Come & Go (with Marshmello),Legends Never Die,Juice WRLD,2020-07-10,205484,86,0.0172,0.625,0.0,-5.181,144.991,0.0657,0.535,4
+9,For The Night (feat. Lil Baby & DaBaby),Shoot For The Stars Aim For The Moon,Pop Smoke,2020-07-03,190476,92,0.114,0.823,0.0,-6.606,125.971,0.2,0.347,4
+10,Watermelon Sugar,Fine Line,Harry Styles,2019-12-13,174000,97,0.122,0.548,0.0,-4.209,95.39,0.0465,0.557,4
+11,Mood Swings (feat. Lil Tjay),Shoot For The Stars Aim For The Moon,Pop Smoke,2020-07-03,213333,90,0.487,0.48,0.0,-6.335,179.798,0.368,0.269,4
+12,Blinding Lights,After Hours,The Weeknd,2020-03-20,200040,99,0.00146,0.514,9.54e-05,-5.934,171.005,0.0598,0.334,4
+13,Heather,Kid Krow,Conan Gray,2020-03-20,198040,88,0.584,0.357,0.0,-7.301,102.078,0.0333,0.27,3
+14,Midnight Sky,Midnight Sky,Miley Cyrus,2020-08-14,223279,83,0.00115,0.705,0.00312,-5.466,110.0,0.0346,0.259,4
+15,Blueberry Faygo,Certified Hitmaker,Lil Mosey,2020-02-06,162546,88,0.207,0.774,0.0,-7.909,99.034,0.0383,0.349,4
+16,The Woo (feat. 50 Cent & Roddy Ricch),Shoot For The Stars Aim For The Moon,Pop Smoke,2020-07-03,201600,92,0.0221,0.49,3.77e-06,-5.655,99.7,0.104,0.286,4
+17,Savage Love (Laxed - Siren Beat),Savage Love (Laxed - Siren Beat),Jawsh 685,2020-06-11,171374,97,0.234,0.767,0.0,-8.52,150.076,0.0803,0.761,4
+18,Lemonade,"Lemonade (feat. Gunna, Don Toliver & NAV)",Internet Money,2020-08-14,195428,77,0.256,0.799,0.0,-6.153,140.04,0.079,0.471,4
+19,Conversations,Legends Never Die,Juice WRLD,2020-07-10,181661,82,0.176,0.747,0.0,-5.825,159.93,0.0838,0.57,4
+20,POPSTAR (feat. Drake),POPSTAR (feat. Drake),DJ Khaled,2020-07-17,200221,91,0.057,0.8,0.0,-4.818,163.071,0.261,0.45,4
+21,GREECE (feat. Drake),GREECE (feat. Drake),DJ Khaled,2020-07-16,218901,91,0.0743,0.695,1.04e-06,-10.798,85.84,0.0432,0.229,4
+22,cardigan,folklore,Taylor Swift,2020-07-24,239560,93,0.537,0.613,0.000345,-8.588,130.033,0.0424,0.551,4
+23,Roses - Imanbek Remix,Roses (Imanbek Remix),SAINt JHN,2019-09-13,176218,79,0.0149,0.785,0.00432,-5.457,121.962,0.0506,0.894,4
+24,exile (feat. Bon Iver),folklore,Taylor Swift,2020-07-24,285634,92,0.778,0.298,5.62e-05,-8.426,75.602,0.0287,0.152,4
+25,Go Crazy,Slime & B,Chris Brown,2020-05-08,176960,91,0.316,0.755,0.0,-8.932,94.148,0.145,0.581,4
+26,Party Girl,Fallin',StaySolidRocky,2020-07-15,147800,76,0.747,0.73,0.0,-9.864,130.09,0.0609,0.615,4
+27,Rags2Riches 2 (feat. Lil Baby),Pray 4 Love (Deluxe),Rod Wave,2020-08-07,235987,80,0.147,0.874,0.0,-9.628,118.004,0.241,0.298,4
+28,Hate The Other Side (with Marshmello & The Kid Laroi),Legends Never Die,Juice WRLD,2020-07-10,160212,81,0.291,0.701,0.0,-6.313,90.003,0.104,0.647,4
+29,the 1,folklore,Taylor Swift,2020-07-24,210251,90,0.757,0.777,7.28e-06,-6.942,139.883,0.0522,0.172,4
+30,We Paid (feat. 42 Dugg),My Turn (Deluxe),Lil Baby,2020-05-01,181929,87,0.135,0.926,0.0,-5.064,135.14,0.293,0.564,4
+31,my future,my future,Billie Eilish,2020-07-30,208155,91,0.795,0.444,0.132,-10.956,104.745,0.062,0.0875,4
+32,death bed (coffee for your head),death bed (coffee for your head),Powfu,2020-02-08,173333,95,0.731,0.726,0.0,-8.765,144.026,0.135,0.348,4
+33,The Box,Please Excuse Me For Being Antisocial,Roddy Ricch,2019-12-06,196652,92,0.104,0.896,0.0,-6.687,116.971,0.0559,0.642,4
+34,DOLLAZ ON MY HEAD (feat. Young Thug),WUNNA,Gunna,2020-05-22,197760,86,0.114,0.825,0.0,-7.47,145.115,0.0577,0.161,4
+35,Be Like That - feat. Swae Lee & Khalid,Be Like That (feat. Swae Lee & Khalid),Kane Brown,2020-07-10,191406,86,0.0469,0.727,2.58e-05,-8.415,86.97,0.0726,0.322,4
+36,Righteous,Legends Never Die,Juice WRLD,2020-07-10,242180,81,0.0417,0.706,0.0,-7.426,142.948,0.0314,0.225,4
+37,Lucid Dreams,Goodbye & Good Riddance,Juice WRLD,2018-12-10,239835,90,0.349,0.511,0.0,-7.23,83.903,0.2,0.218,4
+38,Got It On Me,Shoot For The Stars Aim For The Moon,Pop Smoke,2020-07-03,164579,87,0.00815,0.688,1.65e-05,-7.258,88.834,0.19,0.195,4
+39,Circles,Hollywood's Bleeding,Post Malone,2019-09-06,215280,91,0.192,0.695,0.00244,-3.497,120.042,0.0395,0.553,4
+40,All Girls Are The Same,Goodbye & Good Riddance,Juice WRLD,2018-12-10,165819,87,0.0769,0.671,0.000335,-7.226,161.989,0.307,0.203,4
+41,Electric Love,Dopamine,BØRNS,2015-10-16,218106,86,0.00543,0.611,0.00137,-7.627,120.041,0.0533,0.518,4
+42,Robbery,Death Race For Love,Juice WRLD,2019-03-08,240050,88,0.328,0.685,0.0,-5.122,159.966,0.0457,0.578,5
+43,Sunflower - Spider-Man: Into the Spider-Verse,Hollywood's Bleeding,Post Malone,2019-09-06,157560,83,0.533,0.755,0.0,-4.368,89.96,0.0575,0.925,4
+44,Tap In,Tap In,Saweetie,2020-06-17,139413,84,0.00576,0.954,0.000498,-7.117,100.036,0.204,0.432,4
+45,my ex's best friend (with blackbear),my ex's best friend (with blackbear),Machine Gun Kelly,2020-08-07,138970,83,0.00391,0.728,0.0,-5.096,124.934,0.0433,0.33,4
+46,21,THE GOAT,Polo G,2020-05-15,163797,86,0.149,0.783,0.0,-10.646,176.027,0.541,0.533,4
+47,Flex (feat. Juice WRLD),THE GOAT,Polo G,2020-05-15,163902,86,0.0538,0.752,0.0,-5.792,164.009,0.153,0.35,4
+48,Sunday Best,Where the Light Is,Surfaces,2019-01-06,158571,91,0.183,0.878,0.0,-6.832,112.022,0.0578,0.694,4
+49,GO (feat. Juice WRLD),F*CK LOVE,The Kid LAROI,2020-07-24,181688,82,0.157,0.487,0.0,-4.973,73.779,0.0944,0.522,4
