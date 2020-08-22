@@ -21,6 +21,7 @@ def getTrackIDs(user, playlist_id):
         ids.append(track['id'])
     return ids
 
+ids = getTrackIDs('angelicadietzel', '4R0BZVh27NUJhHGLNitU08')
 
 #grab data from track
 def getTrackFeatures(id):
@@ -44,9 +45,11 @@ def getTrackFeatures(id):
     speechiness = features[0]['speechiness']
     valence = features[0]['valence']
     time_signature = features[0]['time_signature']
+    liveness = features[0]['liveness']
+    energy = features[0]['energy']
 
 
-    track = [name, album, artist, release_date, length, popularity, danceability, acousticness, danceability, instrumentalness, loudness, tempo, speechiness, valence, time_signature]
+    track = [name, album, artist, release_date, length, popularity, danceability, acousticness, danceability, instrumentalness, loudness, tempo, speechiness, valence, time_signature, liveness, energy]
     return track
 
 
@@ -74,4 +77,6 @@ df = pd.DataFrame(tracks,
                             'tempo',
                             'speechiness',
                             'valence',
-                            'time_signature'])
+                            'time_signature',
+                            'liveness',
+                            'energy'])
