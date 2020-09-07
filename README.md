@@ -33,6 +33,7 @@ After normalizing the data, we took a random sample (80%) from the data. To get 
 ![spotify_rmse](https://user-images.githubusercontent.com/64059855/92412702-bdcfe080-f101-11ea-802b-f7928ba9875b.png)
 
 ## Conclusion
+* Achievements 
 
 ## Authors
 Created by *Zachary Wyman & Austin Eaton*.  
