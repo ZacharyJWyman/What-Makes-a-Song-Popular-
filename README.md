@@ -23,6 +23,8 @@ Initially our dataset had a skewed distribution for popularity. There were a fai
 After normalizing the repsonse variable we must take a look at the predictors To get the most accurate model we want to ensure that the skewness of numerical features are in the range -0.5 - 0.5. If not we will use a Box-Cox transformation to normalize, allowing more flexibility and increased accuracy. For our model, we perform Box-Cox transformations on speechiness, liveness, and instrumentalness.     
   
 ![skewness](https://user-images.githubusercontent.com/64059855/92413878-ea3a2b80-f106-11ea-9676-93043a1474a8.PNG)
+  
+After normalizing the data, we took a random sample (80%) from the data. To get an initial estimate, Linear, Gradient Boosting, XGB, Ridge, and Random Rorest regressions were used. The Random Forest regressor performed the best and so we initialized it as our meta regressor in stacking. When stacking we used Linear, Gradient Boosting, XGB, and Ridge regressions as our base level models and then our meta-model trained on the outputs of the base model. 
 
 
 
