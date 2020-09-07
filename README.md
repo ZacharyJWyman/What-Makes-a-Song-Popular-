@@ -2,7 +2,7 @@
 
 ## Table of Contents
 * [About](#About)
-* [Technology](#Libraries)
+* [Libraries](#Libraries)
 * [Conclusion](#Conclusion)
 * [Authors](#Authors)
 
