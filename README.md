@@ -20,11 +20,11 @@ Initially our dataset had a skewed distribution for popularity. There were a fai
   
 ![normalized_plot](https://user-images.githubusercontent.com/64059855/92413398-d42b6b80-f104-11ea-91ef-a8f9d381d2bf.png)
   
-After normalizing the repsonse variable we must take a look at the predictors To get the most accurate model we want to ensure that the skewness of numerical features are in the range -0.5 - 0.5. If not we will use a Box-Cox transformation to normalize, allowing more flexibility and increased accuracy. For our model, we perform Box-Cox transformations on speechiness, liveness, and instrumentalness.     
+After normalizing the response variable we must take a look at the predictors To get the most accurate model we want to ensure that the skewness of numerical features are in the range -0.5 - 0.5. If not we will use a Box-Cox transformation to normalize, allowing more flexibility and increased accuracy. For our model, we perform Box-Cox transformations on speechiness, liveness, and instrumentalness.     
   
 ![skewness](https://user-images.githubusercontent.com/64059855/92413878-ea3a2b80-f106-11ea-9676-93043a1474a8.PNG)
   
-After normalizing the data, we took a random sample (80%) from the data. To get an initial estimate, Linear, Gradient Boosting, XGB, Ridge, and Random Rorest regressions were used. The Random Forest regressor performed the best and so we initialized it as our meta regressor to be used in stacking, but first we needed to hypertune the parameters of each model. To do this, GridSearchCV was used on all of the models and determined the best estimator for each algorithm. We could now go ahead in stacking the models which reduced the RMSE by 0.05, a significant improvement over each base model. 
+After normalizing the data, we took a random sample (80%) from the data. To get an initial estimate, Linear, Gradient Boosting, XGB, Ridge, and Random Rorest regressions were used. The Random Forest regressor performed the best and so we initialized it as our meta regressor to be used in stacking, but first we needed to hypertune the parameters of each model. To do this, GridSearchCV was used on all of the models and determined the best estimator for each algorithm. We could now go ahead in stacking the models which reduced the RMSE by 0.05, a significant improvement over each base model.
 
 
 
