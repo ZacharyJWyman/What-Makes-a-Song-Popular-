@@ -2,6 +2,9 @@
 
 ## Table of Contents
 * [About](#About)
+* [Technology](#Technology)
+* [Conclusion](#Conclusion)
+* [Authors](#Authors)
 
 ## About
 
