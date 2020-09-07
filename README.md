@@ -13,7 +13,7 @@ Song preferences are changing every year. ***  Using the spotify API and spotipy
 - Pandas, NumPy, sklearn, matplotlib, seaborn, spotipy, scipy.
 
 ## Conclusion
-
+![spotify_rmse](https://user-images.githubusercontent.com/64059855/92412702-bdcfe080-f101-11ea-802b-f7928ba9875b.png)
 
 ## Authors
 Created by *Zachary Wyman & Austin Eaton*.  
