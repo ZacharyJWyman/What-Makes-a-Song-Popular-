@@ -13,4 +13,4 @@
 ## Conclusion
 
 ## Authors
-Created by **Zachary Wyman
+Created by *Zachary Wyman & Austin Eaton* 
