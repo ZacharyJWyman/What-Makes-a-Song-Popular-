@@ -20,6 +20,7 @@ Initially our dataset had a skewed distribution for popularity. There were a fai
   
 ![normalized_plot](https://user-images.githubusercontent.com/64059855/92413398-d42b6b80-f104-11ea-91ef-a8f9d381d2bf.png)
   
+After normalizing the repsonse variable we must take a look at the predictors To get the most accurate model we want to ensure that the skewness of numerical features are in the range -0.5 - 0.5. If not we will use a Box-Cox transformation to normalize, allowing more flexibility and increased accuracy. 
 ![skewness](https://user-images.githubusercontent.com/64059855/92413878-ea3a2b80-f106-11ea-9676-93043a1474a8.PNG)
 
 
