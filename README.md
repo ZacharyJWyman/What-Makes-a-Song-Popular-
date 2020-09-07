@@ -1,8 +1,8 @@
 # Spotify Song Popularity
 In this project we identify factors that are more likely to make a song popular and develop a model to predict popularity.
 ### To view notebook code:
-What makes a song popular: 
-Creating an algorithm to predict song popularity: 
+What makes a song popular:   
+Creating an algorithm to predict song popularity:   
 
 ## Table of Contents
 * [About](#About)
