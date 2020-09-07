@@ -9,6 +9,9 @@
 ## About
 
 ## Libraries
+- NumPy
+- Pandas
+- sklearn
 
 ## Conclusion
 
