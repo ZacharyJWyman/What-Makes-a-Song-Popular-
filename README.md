@@ -9,7 +9,7 @@
 ## About
 
 ## Libraries
-- Pandas, NumPy, sklearn, matplotlib, seaborn, spotipy, scipy
+- Pandas, NumPy, sklearn, matplotlib, seaborn, spotipy, scipy.
 
 ## Conclusion
 
