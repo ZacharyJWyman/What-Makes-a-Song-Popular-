@@ -24,7 +24,7 @@ After normalizing the repsonse variable we must take a look at the predictors To
   
 ![skewness](https://user-images.githubusercontent.com/64059855/92413878-ea3a2b80-f106-11ea-9676-93043a1474a8.PNG)
   
-After normalizing the data, we took a random sample (80%) from the data. To get an initial estimate, Linear, Gradient Boosting, XGB, Ridge, and Random Rorest regressions were used. The Random Forest regressor performed the best and so we initialized it as our meta regressor when stacking. Before stacking, GridSearchCV was used on all of the models to hypertune and determine the best estimators for each algortihm. Stacking the models reduced the RMSE by 0.05 which is a significant improvement over our base models. 
+After normalizing the data, we took a random sample (80%) from the data. To get an initial estimate, Linear, Gradient Boosting, XGB, Ridge, and Random Rorest regressions were used. The Random Forest regressor performed the best and so we initialized it as our meta regressor to be used in stacking, but first we needed to hypertune the parameters iof each model. To do this, GridSearchCV was used on all of the models to hypertune and determine the best estimators for each algortihm. Stacking the models reduced the RMSE by 0.05 which is a significant improvement over our base models. 
 
 
 
