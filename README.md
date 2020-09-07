@@ -17,7 +17,7 @@ After gathering and cleaning the data:
 ** Austin write up analytics here** 
 
 ![unnormalized_plot](https://user-images.githubusercontent.com/64059855/92413167-ad206a00-f103-11ea-8ba9-899b7948dd7c.png)
-To prepare our data for the model we need to normalize popularity. We can see that a lot of songs have 0 popularity and this skews the normalization. To normalize we remove all values with 0 popularity and perform a log(1+X) transformation.
+To prepare our data for the model we need to normalize popularity. We can see that a lot of songs have 0 popularity and this skews the normalization. To normalize we remove all values with 0 popularity and perform a log(1+X) transformation.  
 ![normalized_plot](https://user-images.githubusercontent.com/64059855/92413398-d42b6b80-f104-11ea-91ef-a8f9d381d2bf.png)
 
 
