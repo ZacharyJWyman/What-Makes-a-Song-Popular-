@@ -19,6 +19,8 @@ After gathering and cleaning the data:
 Initially our dataset had a skewed distribution for popularity. There were a fair distribution of songs that had 0 popularity and this caused a left-ward skew. To fix this, we only looked at data that had greater than 0 popularity and performed a log(1+X) transformation on popularity. Doing so gave us a fairly normal distribution which will be help the accuracy of our model. We can still see that there exists a high distribution of songs to the left, but we want to keep as much data as possible and have a more normal looking bell curve after the transformation is done.    
   
 ![normalized_plot](https://user-images.githubusercontent.com/64059855/92413398-d42b6b80-f104-11ea-91ef-a8f9d381d2bf.png)
+  
+![skewness](https://user-images.githubusercontent.com/64059855/92413827-b9f28d00-f106-11ea-89f5-802e0e1cecfe.PNG)
 
 
 
