@@ -1,8 +1,8 @@
 # Spotify Song Popularity
 In this project we identify factors that are more likely to make a song popular and develop a model to predict popularity.
 ### To view notebook code:
-What makes a song popular:   
-Creating an algorithm to predict song popularity:   
+Data Visualization: https://github.com/ZacharyJWyman/Spotify-API/blob/master/notebooks/Spotify_song_analysis%20(2).ipynb    
+Machine Learning: https://github.com/ZacharyJWyman/Spotify-API/blob/master/notebooks/Spotify%20Machine%20Learning%20.ipynb  
 
 ## Table of Contents
 * [About](#About)
