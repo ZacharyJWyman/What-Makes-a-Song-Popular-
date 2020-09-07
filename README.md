@@ -8,7 +8,7 @@
 
 ## About
 
-## Technology
+## Libraries
 
 ## Conclusion
 
