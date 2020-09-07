@@ -13,4 +13,5 @@
 ## Conclusion
 
 ## Authors
-Created by *Zachary Wyman & Austin Eaton*. Feel free to conctact at zack.wyman1@gmail.com & 
+Created by *Zachary Wyman & Austin Eaton*.
+Contact us at zack.wyman1@gmail.com & 
