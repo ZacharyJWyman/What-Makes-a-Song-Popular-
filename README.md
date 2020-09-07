@@ -20,7 +20,8 @@ Initially our dataset had a skewed distribution for popularity. There were a fai
   
 ![normalized_plot](https://user-images.githubusercontent.com/64059855/92413398-d42b6b80-f104-11ea-91ef-a8f9d381d2bf.png)
   
-![skewness](https://user-images.githubusercontent.com/64059855/92413827-b9f28d00-f106-11ea-89f5-802e0e1cecfe.PNG)
+![skewness](https://user-images.githubusercontent.com/64059855/92413878-ea3a2b80-f106-11ea-9676-93043a1474a8.PNG)
+
 
 
 
