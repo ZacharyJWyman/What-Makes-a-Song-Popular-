@@ -28,11 +28,7 @@ After normalizing the response variable we must take a look at the predictors To
   
 ![skewness](https://user-images.githubusercontent.com/64059855/92413878-ea3a2b80-f106-11ea-9676-93043a1474a8.PNG)
   
-After normalizing the data, we took a random sample (80%) from the data. To get an initial estimate, Linear, Gradient Boosting, XGB, Ridge, and Random Rorest regressions were used. The Random Forest regressor performed the best and so we initialized it as our meta regressor to be used in stacking, but first we needed to hypertune the parameters of each model. To do this, GridSearchCV was used on all of the models and determined the best estimator for each algorithm. We could now go ahead in stacking the models which reduced the RMSE by 0.05, a significant improvement over each base model.
-
-
-
-
+After normalizing the data, we took a random sample (80%) from the data. To get an initial estimate, Linear, Gradient Boosting, XGB, Ridge, and Random Rorest regressions were used. The Random Forest regressor performed the best and so we initialized it as our meta regressor to be used in stacking, but first we needed to hypertune the parameters of each model. To do this, GridSearchCV was used on all of the models and determined the best estimator for each algorithm. We could now go ahead in stacking the models which reduced the RMSE by 0.05, a significant improvement over each base model. Additionally, blending was used to create a more robust model on top of stacking. This technique helped improve performance and increased accuracy, reducing RMSE over 0.1, making it the best performing model to predict song popularity. The figure below is a side-by-side illustration of model performance.      
 
 ![spotify_rmse](https://user-images.githubusercontent.com/64059855/92412702-bdcfe080-f101-11ea-802b-f7928ba9875b.png)
 
