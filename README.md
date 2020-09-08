@@ -5,13 +5,20 @@ Data Visualization: https://github.com/ZacharyJWyman/Spotify-API/blob/master/not
 Machine Learning: https://github.com/ZacharyJWyman/Spotify-API/blob/master/notebooks/Spotify%20Machine%20Learning%20.ipynb  
 
 ## Table of Contents
+* [Data](#Data)
 * [About](#About)
 * [Libraries](#Libraries)
+* [Findings](#Findings)
 * [Conclusion](#Conclusion)
 * [Authors](#Authors)
 
+## Data
+* https://developer.spotify.com/documentation/web-api/
+
+
 ## About
 Music preferences change every year. Artists need to follow these trends to ensure that their next song will be popular with listeners. This project can help artists follow these music trends with ease and give them an insight into creating their next big hit. ***  Using the spotify API and spotipy, we were able to retrieve data on the current top 50 songs and found a dataset from **insert dataset here** for years 2010 - 2019. This data unfortunately did not come with all the desired factors and so some further steps had to be taken. Using the spotify API we were able to retrieve missing factors and clean up the dataset to proceed with analytics. This data allowed us to take an inside look at what factors were associated with song popularity in more recent years. To take the project a step further, we developed a model that predicts expected song popularity using data from **source**. A series of regression models were used to gain an initial estimate of the accuracy. Hypertuning each model using GridSearchCV helped eliminate some error and then both stacking and blending techniques were implemented. The purpose of this project is to identify factors that are associated with an increase in popularity. Having an idea of the music preference for each year can help artists increase the popularity of their songs to reach a wider audience. 
+
 
 ## Libraries
 - Pandas, NumPy, sklearn, matplotlib, seaborn, spotipy, scipy.
@@ -36,7 +43,7 @@ A machine learning algorith does not take well to classifiers. Using One Hot Enc
 * Achievements 
 
 ### What we learned:
-In this project we gained familiarity working with a variety of regression and ensemble techniques. Originally, we wanted to paint it as a classification problem and while the model performed decently (considering 100 different classes), there were some issues on the tail ends. Using regression, we were able to gain a much better initial approximation. A common practice when considering the best parameters is ot use GridSearchCV and RandomizedSearchCV and this project gave us expertise in both. It also gave an opportunity to apply techniques commonly used in winning kaggle submissions. This being utilizing stacking and blending ensemble techniques. The RMSE of our model dropped significantly when applying blending. 
+In this project we gained familiarity working with a variety of regression and ensemble techniques. Originally, we wanted to paint it as a classification problem and while the model performed decently (considering 100 different classes), there were some issues on the tail ends. Using regression, we were able to gain a much better initial approximation. A common practice when considering the best parameters is to use GridSearchCV and RandomizedSearchCV and this project gave us expertise in both. It also gave an opportunity to apply techniques commonly used in winning kaggle submissions. This being utilizing stacking and blending ensemble techniques. The RMSE of our model dropped significantly when applying blending. 
 
 ## Authors
 Created by *Zachary Wyman & Austin Eaton*.  
