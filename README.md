@@ -1,5 +1,5 @@
 # Spotify Song Popularity
-In this project we help artists folow music trends and form a predictive algorithm that can accurately predict song popularity. 
+In this project we help artists follow music trends and form a predictive algorithm that can accurately predict song popularity. 
 ### To view notebook code:
 Data Visualization: https://github.com/ZacharyJWyman/Spotify-API/blob/master/notebooks/Spotify_song_analysis%20(2).ipynb    
 Machine Learning: https://github.com/ZacharyJWyman/Spotify-API/blob/master/notebooks/Spotify%20Machine%20Learning%20.ipynb  
@@ -28,7 +28,7 @@ After normalizing the response variable we must take a look at the predictors To
   
 ![skewness](https://user-images.githubusercontent.com/64059855/92413878-ea3a2b80-f106-11ea-9676-93043a1474a8.PNG)
   
-After normalizing the data, we took a random sample (80%) from the data. To get an initial estimate, Linear, Gradient Boosting, XGB, Ridge, and Random Rorest regressions were used. The Random Forest regressor performed the best and so we initialized it as our meta regressor to be used in stacking, but first we needed to hypertune the parameters of each model. To do this, GridSearchCV was used on all of the models and determined the best estimator for each algorithm. We could now go ahead in stacking the models which reduced the RMSE by 0.05, a significant improvement over each base model. Additionally, blending was used to create a more robust model on top of stacking. This technique helped improve performance and increased accuracy, reducing RMSE over 0.1, making it the best performing model to predict song popularity. The figure below is a side-by-side illustration of model performance.      
+A machine learning algorith does not take well to classifiers. Using One Hot Encoder, we categorized each categorical value into numericals, taking on the value 1 if it is true. This transformation adds a lot of columns to our dataframe, but it is a necessary step to ensure that we are achieving accurate outcomes. To proceed, we took a random sample (80%) from the data. To get an initial estimate, Linear, Gradient Boosting, XGB, Ridge, and Random Rorest regressions were used. The Random Forest regressor performed the best and so we initialized it as our meta regressor to be used in stacking, but first we needed to hypertune the parameters of each model. To do this, GridSearchCV was used on all of the models and determined the best estimator for each algorithm. We could now go ahead in stacking the models which reduced the RMSE by 0.05, a significant improvement over each base model. Additionally, blending was used to create a more robust model on top of stacking. This technique helped improve performance and increased accuracy, reducing RMSE over 0.1, making it the best performing model to predict song popularity. The figure below is a side-by-side illustration of model performance.      
 
 ![spotify_rmse](https://user-images.githubusercontent.com/64059855/92412702-bdcfe080-f101-11ea-802b-f7928ba9875b.png)
 
