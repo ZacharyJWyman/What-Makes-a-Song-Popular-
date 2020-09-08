@@ -14,6 +14,8 @@ Machine Learning: https://github.com/ZacharyJWyman/Spotify-API/blob/master/noteb
 
 ## Data
 * https://developer.spotify.com/documentation/web-api/
+* https://github.com/ZacharyJWyman/What-Makes-a-Song-Popular-/blob/master/data/all_songs.csv
+* Zack needs to push commit spotify training/testing data via git as too large to upload. 
 
 
 ## About
