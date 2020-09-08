@@ -36,7 +36,7 @@ A machine learning algorith does not take well to classifiers. Using One Hot Enc
 * Achievements 
 
 ### What we learned:
-In this project we gained familiarity working with a variety of regression and ensemble techniques. Originally, we wanted to paint it as a classification problem and while the model performed decently (considering 100 different classes), there were some issues on the tail ends. Using regression, we were able to gain a much better initial approximation. A common practice is considering the best parameters and this project gave us expertise in both GridSearchCV and RandomizedSearchCV. It also gave an opportunity to apply techniques commonly used in winning kaggle submissions. This being utilizing stacking and blending ensemble techniques. The RMSE of our model dropped significantly when applying blending. 
+In this project we gained familiarity working with a variety of regression and ensemble techniques. Originally, we wanted to paint it as a classification problem and while the model performed decently (considering 100 different classes), there were some issues on the tail ends. Using regression, we were able to gain a much better initial approximation. A common practice when considering the best parameters is ot use GridSearchCV and RandomizedSearchCV and this project gave us expertise in both. It also gave an opportunity to apply techniques commonly used in winning kaggle submissions. This being utilizing stacking and blending ensemble techniques. The RMSE of our model dropped significantly when applying blending. 
 
 ## Authors
 Created by *Zachary Wyman & Austin Eaton*.  
